@@ -11,3 +11,81 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 /* CSS Reset */
 
+body {
+	box-sizing: border-box;
+	font-family: arial,sans-serif;
+}
+
+.content {
+	height: 233px;
+	margin-top: 89px;
+	padding-top: 109px;
+}
+
+.logo {
+	width: 272px;
+	margin: 0 auto;
+}
+
+.logo_google {
+    background: url(https://www.google.ca/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png) no-repeat;
+    background-size:272px 92px;
+    height:92px;
+    width:272px
+}
+
+.logo_subtext {
+	color: #4285f4;
+	font: 16px/16px roboto-regular, arial, sans-serif;
+	left: 215px;
+	position: relative;
+	top: 76px;
+	white-space: nowrap;
+}
+
+.main_search {
+	margin: 0 auto;
+	margin-top: 20px;
+	width: 1139px;
+	height: 130px;
+}
+
+input[type="text"] {
+	width: 559px;
+	height: 34px;
+	margin: 0 auto;
+}
+
+.search_bar {
+	width: 575px;
+	margin: 0 auto;
+}
+
+.button {
+	width: 291px;
+	margin: 0 auto;
+}
+
+.button input[type="submit"] {
+	height: 36px;
+	line-height: 27px;
+	background-color: #f2f2f2;
+	border: 1px solid #f2f2f2;
+	border-radius: 2px;
+	color: #757575;
+	cursor: default;
+	font-family: arial,sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	margin: 11px 4px;
+	min-width: 54px;
+	padding: 0 16px;
+	text-align: center;
+}
+
+.content_subtext {
+	height: 28px;
+	margin: 12px;
+	text-align: center;
+	font-size: small;
+}
